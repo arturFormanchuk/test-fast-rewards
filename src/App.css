@@ -12,6 +12,15 @@
     margin-bottom: 10px;
 }
 
+.w-100{
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+}
+
 .login-register__card{
     width: 500px;
     height: 500px;
