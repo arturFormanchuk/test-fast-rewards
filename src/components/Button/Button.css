@@ -1,0 +1,25 @@
+.button__wrapper{
+    width: 50%;
+    height: 73px;
+    border: 1px solid transparent;
+    border-radius: 63px;
+    text-align: center;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0 auto;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.button__wrapper:hover{
+    background-color: lightgray;
+    border-color: grey;
+}
+
+@media screen and (max-width: 400px) {
+    .button__wrapper{
+        width: 80%;
+    }
+}
