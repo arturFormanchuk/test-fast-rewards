@@ -1,0 +1,37 @@
+.main__container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.main__card{
+    width: 300px;
+    height: 300px;
+}
+
+.timer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+.main__logout{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    margin: 15px;
+}
+
+.screen_label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card_container{
+    width: 300px;
+    text-align: center;
+}

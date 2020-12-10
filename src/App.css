@@ -16,6 +16,27 @@
     width: 100%;
 }
 
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.height100{
+    height: 100vh;
+}
+
+.redirect{
+    color: black;
+    cursor: pointer;
+}
+
+.position_relative{
+    position: relative;
+}
+
 .d-flex{
     display: flex;
     flex-direction: column;
@@ -43,4 +64,14 @@
     font-size: 20px;
     align-items: center;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+    .login-register__card{
+        width: 80%;
+        height: 500px;
+        padding: 40px 40px 20px 40px;
+        display: flex;
+        flex-direction: column;
+    }
 }
